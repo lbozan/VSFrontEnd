@@ -32,7 +32,7 @@ html,body{
 .basetoolbar ul li {
   display: inline;
   list-style-type: none;
-  padding-right: 20px;
+  margin-right: 10px;
 }
 .basetoolbar ul{
 	padding:0px;
@@ -54,7 +54,6 @@ html,body{
 	background-color:#475a58;
 }
 
-
 .basefooter{
   position:absolute;
   margin:0px;
@@ -67,8 +66,6 @@ html,body{
   
 }
 
-
-
 .reverse{
 	display: contents;
 	color:#f0f0f0;
@@ -80,7 +77,8 @@ html,body{
 .reverse ul li {
   display: inline;
   list-style-type: none;
-  padding: 10px;  
+	padding: 0px 10px;
+	margin: 4px 0px;
   border-color: #827c7c; 
 }
 .reverse-left ul li {
@@ -90,6 +88,14 @@ html,body{
 
   border-right: 4px solid transparent;
 }
+
+.reverse.reverse-left > ul > li {
+	border-left: 5px solid #4b4b50;
+}
+.reverse.reverse-right > ul > li {
+	border-right: 5px solid #4b4b50;
+}
+
 .reverse ul li:hover {
 	border-color: #1a84e2;
 	border-bottom: 4px solid transparent;
@@ -98,18 +104,20 @@ html,body{
 .reverse ul{
 	padding:0px;
 }
-
-.basetoolbar-footer ul li{
+.basetoolbar-footer{
+	border: solid #3d3d3e;
+	border-width: 1px 0px 0px 0px;
+	width: 95%;
+}
+.basetoolbar-footer > ul > li{
 	box-sizing: border-box;
-	padding-bottom:10px;
-	border-color: #827c7c;
-	border-bottom: 5px solid transparent;
+	padding-bottom:4px;
+	border-bottom: 5px solid #4b4b50;
 }
 
 .basetoolbar-footer ul li:hover{
 	border-color:#1a84e2;
 }
-
 
 .base-container-left {
 	float:left;
@@ -123,7 +131,6 @@ html,body{
  	display:table-cell;
 	width:95vw;
 }
-
 
 .clear{
 	clear:both;
@@ -139,9 +146,13 @@ html,body{
 }
 .base-container-page{
 	border: 1px solid #3d3d3e;
-	/*height: 70vh;*/
+	border-bottom: 0px;
+	height: 70vh;
 }
 .base-container-footer{
 	font-size:12px;
+	position: absolute;
+	bottom: 20px;
+	margin-left: 35;
+	width: 100%;
 }
-

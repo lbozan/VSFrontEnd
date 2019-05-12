@@ -1,123 +1,150 @@
 <html>
 <head>
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/prism.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-
-<title>DevLabs - Lokman BOZAN</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/prism.css">
+	<link rel="stylesheet" href="css/model.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">		
+	<title>DevLabs - Lokman BOZAN</title>
 </head>
 <body>
-  <div class="basemainborder">
-    <div class="basetitle">
-      <span class="basetitleIcon">
-        <img src="images/minions-logo.png" width="25" />
-      </span>
-      <span class="basetitleWord">
-        Start Page - Lokman BOZAN
-      </span>          
-    </div>
- 
-   <div class="basetoolbartwo basetitle" style="margin-left: 0px;">
-      <ul>
-        <li>Files</li>
-        <li>Edit</li>
-        <li>View</li>
-        <li>Project</li>
-		<li>Build </li>
-		<li>Debug </li>
-		<li>Team </li>
-		<li>Tools </li>
-		<li>Test </li>
-		<li>Analyze </li>
-		<li>Window </li>
-		<li>Help </li>
-      </ul>
-    </div>
-  
-    <div class="basetoolbar basetitle">
-      <ul style="color:#95c7f3;">
-		<li></li>
-		<li><i class="fas fa-arrow-alt-circle-left fa-2x" ></i> </li>
-		<li><i class="fas fa-arrow-alt-circle-right fa-2x"></i></li>		
-		<li><i class="far fa-save fa-2x"></i> </li>
-		<li><i class="fas fa-caret-right fa-2x" ></i> </li>
-		<li><i class="fab fa-sticker-mule fa-2x"></i> </li>
-		<li><i class="fas fa-smoking fa-2x"></i> </li>
-		<li><i class="fas fa-undo-alt"></i> </li>
-	  </ul>
-    </div>
-     
-	<div class="basecontainer">
-		<div class="base-container-left">
-			<div class="reverse reverse-left">
+	<div class="basemainborder">
+			<div class="basetitle">
+				<span class="basetitleIcon">
+					<img src="images/minions-logo.png" width="20" />
+				</span>
+				<span class="basetitleWord">
+					Lokman BOZAN - Developer and entrepreneur
+				</span>
+			</div>
+
+			<div class="basetoolbartwo basetitle" style="margin-left: 0px;">
 				<ul>
-					<li>ToolBoxs</li>
-					<li>Server Explorer</li>
-					<li>Test Explorer</li>
-					<li>Data Sources</li>
-				</ul>
-			</div>			
-		</div>
-		 
-		<div class="base-container-center ">
-			<div class="base-tab-page basetoolbar basetitle marZero">
-				<ul class="marZero">
-					<li>Home.cshtml</li>
-					<li>About.cshtml</li>
+					<li>Files</li>
+					<li>Edit</li>
+					<li>View</li>
+					<li>Project</li>
+					<li>Build </li>
+					<li>Debug </li>
+					<li>Team </li>
+					<li>Tools </li>
+					<li>Test </li>
+					<li>Analyze </li>
+					<li>Window </li>
+					<li>Help </li>
 				</ul>
 			</div>
-			<div class="base-container-page">
-<pre><code class="language-csharp">using System;</code></pre> 
-<pre><code class="language-csharp">public class Program</code></pre> 
-<pre><code class="language-csharp">{</code></pre> 
-<pre><code class="language-csharp">	public static void Main()</code></pre> 
-<pre><code class="language-csharp">	{</code></pre> 
-<pre><code class="language-csharp">		Shape circle = new Circle();</code></pre> 
-<pre><code class="language-csharp">		Shape redCircle = new RedShapeDecorator(new Circle());</code></pre> 
-<pre><code class="language-csharp">		Shape redRect = new RedShapeDecorator(new Rectangle());</code></pre> 
-<pre><code class="language-csharp">		Shape rect = new Rectangle();</code></pre> 
-<pre><code class="language-csharp">		circle.Draw();</code></pre> 
- 
-<pre><code class="language-csharp">	}</code></pre> 
-<pre><code class="language-csharp">}</code></pre>  
 
-
+			<div class="basetoolbar basetitle">
+				<ul style="color:#95c7f3;">
+					<li></li>
+					<li><i class="fas fa-arrow-alt-circle-left fa-2x" ></i> </li>
+					<li><i class="fas fa-arrow-alt-circle-right fa-2x"></i></li>
+					<li><i class="far fa-save fa-2x"></i> </li>
+					<li><i class="fab fa-sticker-mule fa-2x"></i> </li>
+					<li><i class="fas fa-fighter-jet fa-2x" id="myBtn" style="color:red;"></i></li>
+					<li><i class="fas fa-smoking fa-2x"></i> </li>
+					<li><a href="http://lokmanbozan.com"><i class="fas fa-undo-alt fa-2x"></i></a> </li>
+ 					<li><i class="fas fa-camera fa-2x"></i> </li>
+					 <li><i class="fas fa-bed fa-2x"></i> </li>
+					 <li><i class="fas fa-battery-three-quarters fa-2x"></i> </li>
+				</ul>
 			</div>
-			<div class="base-container-footer">
-				<div class="basetoolbar basetoolbar-footer">
-					<ul>
-						<li>Error List</li>
-						<li>Package Manager Console</li>
-						<li>Output</li>
-						<li>Command Window</li>
-						<li>Call Hierarchy</li>
-					</ul>
+
+			<div class="basecontainer">
+				<div class="base-container-left">
+						<div class="reverse reverse-left">
+							<ul>
+								<li>ToolBoxs</li>
+								<li>Server Explorer</li>
+								<li>Test Explorer</li>
+								<li>Data Sources</li>
+							</ul>
+						</div>
 				</div>
-			</div>
+
+				<div class="base-container-center ">
+					<div class="base-tab-page basetoolbar basetitle marZero">
+						<ul class="marZero">
+							<li style="background-color:#1a84e2;padding:3px 5px"> Program.cs</li>
+							<li>Info.cs</li>
+							<li>DevLabsInfo.cs</li>
+							<li>GitHub.cs</li>
+							<li>LinkedInfo.cs</li>
+							<li>Blogspot.cs</li>
+							<li>Email.cs</li>
+						</ul>
+					</div>
+					<div class="base-container-page">
+						<pre><code class="language-csharp">using System;</code></pre>
+						<pre><code class="language-csharp">public class Program</code></pre>
+						<pre><code class="language-csharp">{</code></pre>
+						<pre><code class="language-csharp">	public static void Main()</code></pre>
+						<pre><code class="language-csharp">	{</code></pre>
+						<pre><code class="language-csharp">		Info info = new Info();</code></pre>
+						<pre><code class="language-csharp">		info.gitInfo = new DevLabsInfo(new GitHub());</code></pre>
+						<pre><code class="language-csharp">		info.linkedInfo = new DevLabsInfo(new LinkedInfo());</code></pre>
+						<pre><code class="language-csharp">		info.blogInfo = new DevLabsInfo(new Blogspot());</code></pre>
+						<pre><code class="language-csharp">		info.mailInfo = new DevLabsInfo(new Email());</code></pre>
+						<pre><code class="language-csharp">		info.Show();</code></pre>
+						<pre><code class="language-csharp">	}</code></pre>
+						<pre><code class="language-csharp">}</code></pre>
+						<pre><code class="language-csharp"> // development and loading continues...   :^) click red for info </code></pre>
+					</div>
+				</div>
+
+				<div class="base-container-right">
+					<div class="reverse reverse-right">
+						<ul>
+							<li>Diagnostic</li>
+							<li>Properties</li>
+							<li>Solution Explorer</li>
+							<li>Team Explorer</li>
+							<li>Class View</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"></div>
 		</div>
-		
-		<div class="base-container-right">
-			<div class="reverse reverse-right">
+
+		<div class="base-container-footer">
+			<div class="basetoolbar basetoolbar-footer">
 				<ul>
-					<li>Diagnostic</li>
-					<li>Properties</li>
-					<li>Solution Explorer</li>
-					<li>Team Explorer</li>
-					<li>Class View</li>
+					<li>Error List</li>
+					<li>Package Manager Console</li>
+					<li>Output</li>
+					<li>Command Window</li>
+					<li>Call Hierarchy</li>
 				</ul>
 			</div>
-			
 		</div>
-		<div class="clear"></div>
-	</div>	  
-	  
-    <div class="basefooter basetitle">
-      <span style="margin-left:20px"> Ready</span>
-    </div> 
-  </div>
+		<div class="basefooter basetitle">
+			<span style="margin-left:20px;float: left;"> Ready</span>
+			<span style="margin-right:20px;float: right;"> ©2019 LokmanBOZAN</span>
+	    </div>
+	</div>
 
-  <script src="js/prism.js"></script>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
 
-  </body>
+	 <!-- Modal content -->
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		<div style="display: flex;">
+		<div style="flex: 0 0 65%;">
+		<h1>Lokman BOZAN. More about me</h1>
+		<p><a href="https://github.com/lbozan/">My github</a></p>
+		<p><a href="https://www.linkedin.com/in/lbozan/">LinkedIn profile</a></p>
+		<p><a href="http://lbozan.blogspot.com/">My blog</a></p>
+		<p>My mail : Lbozan[@]outlook.com</a></p>
+	  </div>
+	  <div style="flex:1;">
+		<img src="images/minions-logo-info.png" />
+	  </div>
+	</div>
+	</div>
+	
+	<script src="js/prism.js"></script>
+	<script src="js/model.js"></script>
+</body>
 </html>
