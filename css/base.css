@@ -1,0 +1,147 @@
+html,body{ 
+	margin:0; 
+	padding:0; 
+	height:100%; 
+	width:100%; 
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.basecontainer {
+    display: flex;
+}
+.basemainborder{
+   height: auto; 
+   min-height: 100%;
+   width:100%;
+   overflow:hidden;
+   background-color:#2c2c2f
+}
+.basetitle{
+   color:#718683;
+   margin: 12px 12px 0px 12px;
+   font-size:14px;
+}
+.basetitleWord{
+   padding-left:20px; 
+   display: -webkit-inline-box;
+   vertical-align: super;
+ }
+.basetoolbar{
+  color:#f0f0f0;
+}
+.basetoolbar ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+.basetoolbar ul{
+	padding:0px;
+}
+
+.basetoolbartwo {
+  color:#f0f0f0;
+}
+.basetoolbartwo ul li {
+  display: inline;
+  list-style-type: none;
+  padding:0px 8px;
+}
+.basetoolbartwo ul{
+	padding:0px;
+}
+
+.basetoolbartwo ul li:hover{
+	background-color:#475a58;
+}
+
+
+.basefooter{
+  position:absolute;
+  margin:0px;
+  bottom:0;
+  width:100%;
+  background:#248ae4;
+  color:#f0f0f0;
+  height:22px;  
+  line-height: 22px;
+  
+}
+
+
+
+.reverse{
+	display: contents;
+	color:#f0f0f0;
+	writing-mode: vertical-lr;
+	text-align: center;
+	margin-left: 50vw;	
+    font-size: 11;
+}
+.reverse ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px;  
+  border-color: #827c7c; 
+}
+.reverse-left ul li {
+	border-left: 4px solid transparent;
+}
+.reverse-right ul li {
+
+  border-right: 4px solid transparent;
+}
+.reverse ul li:hover {
+	border-color: #1a84e2;
+	border-bottom: 4px solid transparent;
+
+}
+.reverse ul{
+	padding:0px;
+}
+
+.basetoolbar-footer ul li{
+	box-sizing: border-box;
+	padding-bottom:10px;
+	border-color: #827c7c;
+	border-bottom: 5px solid transparent;
+}
+
+.basetoolbar-footer ul li:hover{
+	border-color:#1a84e2;
+}
+
+
+.base-container-left {
+	float:left;
+}
+.base-container-right {
+	float:right;
+}
+
+.base-container-center{
+	float:left;
+ 	display:table-cell;
+	width:95vw;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.marZero{
+	margin:0px;
+}
+
+.base-tab-page{
+	border-bottom: 3px solid #1a84e2;
+	font-size:13px;
+}
+.base-container-page{
+	border: 1px solid #3d3d3e;
+	/*height: 70vh;*/
+}
+.base-container-footer{
+	font-size:12px;
+}
+
